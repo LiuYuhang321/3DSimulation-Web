@@ -106,4 +106,6 @@ The following restrictions apply:
 2.  **No Modification**: You are not allowed to modify, merge, publish, or sublicense the source code.
 3.  **No Commercial Use**: This software is strictly prohibited for commercial use.
 
-For commercial licensing, collaboration, or permission requests, please contact: **tb25010023a41@cumt.edu.cn**
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY. 
+Forcollaboration, or permission requests, please contact: 
+Liu Yuhang, China University of Mining and Technology **tb25010023a41@cumt.edu.cn**
