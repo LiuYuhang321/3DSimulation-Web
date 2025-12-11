@@ -107,4 +107,4 @@ The following restrictions apply:
 2.  **No Modification**: You are not allowed to modify, merge, publish, or sublicense the source code.
 3.  **No Commercial Use**: This software is strictly prohibited for commercial use.
 
-For commercial licensing, collaboration, or permission requests, please contact: **2302460505@qq.com**
+For commercial licensing, collaboration, or permission requests, please contact: **tb25010023a41@cumt.edu.cn**
