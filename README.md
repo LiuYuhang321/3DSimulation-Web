@@ -90,11 +90,10 @@ Compile and minify the code for production deployment:
 npm run build
 ```
 
-## 🤝 Citation
+## 🤝 Test File
 
-If you use this platform or code in your research, please cite our paper:
-
-> [Placeholder: Title of your paper, Journal/Conference Name, Year, DOI, etc.]
+You can access and test the platform after deploying it locally. After deployment, you can access the main page as shown in the sample image. 
+<img width="865" height="446" alt="image" src="https://github.com/user-attachments/assets/11f6486f-3759-4aab-b1fc-c22140805b46" />
 
 ## 📄 License & Copyright
 
