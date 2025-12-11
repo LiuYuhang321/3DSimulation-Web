@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Babylon.js Example 01</title>
+  <style>
+      html,
+      body {
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+      }
+
+      #renderCanvas {
+          width: 100%;
+          height: 100%;
+          touch-action: none;
+      }
+  </style>
+  <script src="./libs/babylon/babylon.js"></script>
+  <script src="./libs/babylon/babylonjs.loaders.min.js"></script>
+</head>
+
+<body>
+<canvas id="renderCanvas"></canvas>
+
+<script>
+  const searchParams  = new URLSearchParams(window.location.search)
+  if(searchParams.has('gltf')){
+    const gltf = searchParams.get('gltf');
+    // 获取 canvas 元素
+    const canvas = document.getElementById('renderCanvas');
+    // 初始化 Babylon.js 引擎
+    const engine = new BABYLON.Engine(canvas);
+
+    engine.loadingScreen = {
+      displayLoadingUI: () => {},
+      hideLoadingUI: () => {},
+      loadingUIBackgroundColor: '',
+      loadingUIText: ''
+    };
+
+    const createScene = function () {
+      // 创建一个场景
+      const scene = new BABYLON.Scene(engine);
+      scene.createDefaultCameraOrLight(true, true, true);
+      scene.createDefaultEnvironment();
+      scene.autoClear = false;
+      return scene;
+    };
+    // 创建场景
+    const scene = createScene();
+    scene.activeCamera.setPosition(new BABYLON.Vector3(0, 10, 10));
+    BABYLON.SceneLoader.Append("", gltf, scene, function (scene) {
+      // 模型添加成功后，执行场景对象的一些方法
+    });
+    // 注册一个渲染循环，以便在每一帧都渲染场景
+    engine.runRenderLoop(function () {
+      scene.render();
+    });
+    // 监听窗口大小变化，调整引擎的大小
+    window.addEventListener('resize', function () {
+      engine.resize();
+    });
+  }
+</script>
+</body>
+</html>

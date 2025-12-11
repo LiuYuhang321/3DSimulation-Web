@@ -1,0 +1,26 @@
+{
+  "getree": {
+    "url": "/layer/tree",
+    "host": 'VITE_APP_MIS_API_BASE_URL',
+    "method": "get",
+    "token": {
+      "type": 2,
+      // 1.平台接口公用token 2.使用用户登录token
+      "headerName": "Token",
+      "urlEncoded": false,
+      "value": ""
+    }
+  },
+  "getreeNodeByid": {
+    "url": "/layer/tree/node/data/{id}",
+    "host": 'VITE_APP_MIS_API_BASE_URL',
+    "method": "get",
+    "token": {
+      "type": 2,
+      // 1.平台接口公用token 2.使用用户登录token
+      "headerName": "Token",
+      "urlEncoded": false,
+      "value": ""
+    }
+  }
+}

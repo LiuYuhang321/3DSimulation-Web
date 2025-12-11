@@ -1,0 +1,40 @@
+{
+  // sdfasdf
+  "search": {
+    "url": "/geoengine/v1/cf/rest/services/DataService/DB/24896a33-e838-40e6-b310-a5c0eba77cb5",
+    "host": "",
+    "method": "get",
+    "queryParams": {
+      "page.size": 10000,
+      "page.index": 1,
+      "keyword": "",
+      "type": ""
+    }
+  },
+  "querySJQInfoBySchoolId": {
+    "url": "/geoengine/v1/cf/rest/services/DataService/DB/75634f9b-f679-4f3e-bb19-7fd4b4238ccf",
+    "method": "get",
+    "queryParams": {
+      "page.size": 10
+    }
+  },
+  "querySJQInfoByBuildId": {
+    "url": "/geoengine/v1/cf/rest/services/DataService/DB/62950f19-0519-423a-982e-dca243d8d747",
+    "method": "get",
+    "queryParams": {
+      "page.size": 10
+    }
+  },
+  "searchlist": {
+    "host": "",
+    "url": "/edudssapi/vis3d/schools",
+    "method": "post"
+  },
+  "getCommunitys": {
+    "host": "",
+    "url": "/edudssapi/vis3d/schools/{id}/community",
+    "method": "get"
+  }
+}
+
+

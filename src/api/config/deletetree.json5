@@ -1,0 +1,26 @@
+{
+  "deleteTreenode": {
+    "url": "/layer/node/{id}",
+    "host": 'VITE_APP_MIS_API_BASE_URL',
+    "method": "delete",
+    "token": {
+      "type": 2,
+      // 1.平台接口公用token 2.使用用户登录token
+      "headerName": "Token",
+      "urlEncoded": false,
+      "value": ""
+    }
+  },
+  "deleteTreeNodeData": {
+    "url": "/layer/node/data/",
+    "host": 'VITE_APP_MIS_API_BASE_URL',
+    "method": "delete",
+    "token": {
+      "type": 2,
+      // 1.平台接口公用token 2.使用用户登录token
+      "headerName": "Token",
+      "urlEncoded": false,
+      "value": ""
+    }
+  }
+}

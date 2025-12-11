@@ -1,0 +1,172 @@
+{
+  白模不显示: {
+    icon: "./assets/images/bg/header/maplayer_icon_dianziditu_nor.webp",
+    iconS: "./assets/images/bg/header/maplayer_icon_dianziditu_sel.webp",
+    smallIcon: "./assets/images/map/scene/colorful.svg",
+    show: false,
+    enableAlphaFor3Dtiles: "true",
+    layers: [
+       {
+         type: "imageLayer",
+         layer: {
+           type: "arcgis-hx",
+           option: {
+             url: "http://2.34.105.23/GeoCMS/v1/cf/rest/services/MapService/ESRI/0bc15917-c285-445a-9fde-61a69ec54705?token=N4T7dO%2B5mGH6rJ615v0wTcaL7SLw%2FwlZk0n1vpeOZ%2Fn6yvIzEJOsrcg%2B9maE1GQ%2BQd7yMXFjD6KQuh55%2Fe9NMKKposGFGb4YHo02G18JmrrqLd4eWoGztA%3D%3D",
+             usePreCachedTilesIfAvailable: false,
+             crs: "EPSG:4490",
+             enablePickFeatures: false,
+             //invertColor: true
+             brightness: 0.1
+           },
+         },
+       },
+      {
+        type: "3dtiles",
+        layer: {
+          tilesetOption: {
+            maximumScreenSpaceError: 16,
+            maximumMemoryUsage: 1024,
+            url: "http://2.34.102.188:8091/cszggeocms/v1/cf/rest/services/MapService/3DT/fcdcec8d-3e7a-43fc-aba3-92f1e84d7a44/tileset.json?token=TJibjv%2Fx6lgLDvGy8XbFYq%2F5%2Fqfsckk0k0n1vpeOZ%2FkXAmeeea5jCzIU4AjLoRn%2FrsRArE836ne69bu%2BJXHWtsaSLUS0kfZMU60uFukIvarqLd4eWoGztA%3D%3D",
+          },
+          tileStyle: {
+            color: "color('rgba(255,255,255,0.999)')",
+          }
+        },
+      },
+      {
+        type: "gltf",
+        layer: {
+          url: "./data/gltf/building_floor.gltf",
+          position: [
+            120.76187880150574,
+            31.691212775621854,
+            0
+          ],
+          hpr: [90, 0, 0],
+          light: 1,
+        },
+      }
+    ],
+  },
+  白模: {
+    icon: "./assets/images/bg/header/maplayer_icon_dianziditu_nor.webp",
+    iconS: "./assets/images/bg/header/maplayer_icon_dianziditu_sel.webp",
+    smallIcon: "./assets/images/map/scene/colorful.svg",
+    show: true,
+    enableAlphaFor3Dtiles: "true",
+    layers: [
+      {
+        type: "imageLayer",
+        layer: {
+          type: "arcgis-hx",
+          option: {
+            url: "http://2.34.105.23/GeoCMS/v1/cf/rest/services/MapService/ESRI/0bc15917-c285-445a-9fde-61a69ec54705?token=N4T7dO%2B5mGH6rJ615v0wTcaL7SLw%2FwlZk0n1vpeOZ%2Fn6yvIzEJOsrcg%2B9maE1GQ%2BQd7yMXFjD6KQuh55%2Fe9NMKKposGFGb4YHo02G18JmrrqLd4eWoGztA%3D%3D",
+            usePreCachedTilesIfAvailable: false,
+            crs: "EPSG:4490",
+            enablePickFeatures: false
+          },
+        },
+      },
+      {
+        type: "3dtiles",
+        layer: {
+          tilesetOption: {
+            maximumScreenSpaceError: 16,
+            maximumMemoryUsage: 1024,
+            url: "http://2.34.102.188:8091/cszggeocms/v1/cf/rest/services/MapService/3DT/fcdcec8d-3e7a-43fc-aba3-92f1e84d7a44/tileset.json?token=TJibjv%2Fx6lgLDvGy8XbFYq%2F5%2Fqfsckk0k0n1vpeOZ%2FkXAmeeea5jCzIU4AjLoRn%2FrsRArE836ne69bu%2BJXHWtsaSLUS0kfZMU60uFukIvarqLd4eWoGztA%3D%3D",
+          },
+          tileStyle: {
+            color: "color('rgba(255,255,255,0.999)')",
+          }
+        },
+      },
+      {
+        type: "3dtiles",
+        layer: {
+          tilesetOption: {
+            maximumScreenSpaceError: 16,
+            maximumMemoryUsage: 1024,
+            url: "http://2.34.102.188:8091/cszggeocms/v1/cf/rest/services/MapService/3DT/37b3ac57-78f7-4ad1-8bf2-850b2a74cf41/tileset.json?token=TJibjv%2Fx6lgLDvGy8XbFYq%2F5%2Fqfsckk0k0n1vpeOZ%2FkXAmeeea5jCzIU4AjLoRn%2FrsRArE836ne69bu%2BJXHWtsaSLUS0kfZMU60uFukIvarqLd4eWoGztA%3D%3D",
+          },
+          tileStyle: {
+            color: "color('rgba(255,255,255,0.999)')",
+          }
+        },
+      }
+    ],
+  },
+  倾斜: {
+    icon: "./assets/images/bg/header/maplayer_icon_yingxiang_nor.webp",
+    iconS: "./assets/images/bg/header/maplayer_icon_yingxiang_sel.webp",
+    smallIcon: "./assets/images/map/scene/imagey.png",
+    show: true,
+    enableAlphaFor3Dtiles: "true",
+    layers: [
+      {
+        type: "imageLayer",
+        layer: {
+          type: "arcgis-hx",
+          option: {
+            url: "http://2.34.105.23/GeoCMS/v1/cf/rest/services/MapService/ESRI/ce351d36-3390-4137-9a21-a8e832a8d7ad?token=N4T7dO%2B5mGH6rJ615v0wTcaL7SLw%2FwlZk0n1vpeOZ%2Fn6yvIzEJOsrcg%2B9maE1GQ%2BQd7yMXFjD6KQuh55%2Fe9NMKKposGFGb4YHo02G18JmrrqLd4eWoGztA%3D%3D",
+            usePreCachedTilesIfAvailable: false,
+            crs: "EPSG:4490",
+            enablePickFeatures: false,
+          },
+        },
+      },
+      {
+        type: "3dtiles",
+        layer: {
+          tilesetOption: {
+            maximumScreenSpaceError: 16,
+            maximumMemoryUsage: 1024,
+            url: "http://2.34.102.188:8091/cszggeocms/v1/cf/rest/services/MapService/3DT/2fe2ee36-027c-44c4-be3a-70f38dfa8178/tileset.json?token=TJibjv%2Fx6lgLDvGy8XbFYq%2F5%2Fqfsckk0k0n1vpeOZ%2FkXAmeeea5jCzIU4AjLoRn%2FrsRArE836ne69bu%2BJXHWtsaSLUS0kfZMU60uFukIvarqLd4eWoGztA%3D%3D",
+          },
+          tileStyle: {
+            color: "color('rgba(255,255,255,1)')",
+          },
+          "tilesOffset":{
+            "height": -3,
+            "lng": 0,
+            "lat": 0
+          }
+        },
+      },
+    ],
+  },
+  精模: {
+    icon: "./assets/images/bg/header/maplayer_icon_dianziditu_nor.webp",
+    iconS: "./assets/images/bg/header/maplayer_icon_dianziditu_sel.webp",
+    smallIcon: "./assets/images/map/scene/colorful.svg",
+    show: true,
+    enableAlphaFor3Dtiles: "true",
+    layers: [
+      {
+        type: "imageLayer",
+        layer: {
+          type: "arcgis-hx",
+          option: {
+            url: "http://2.34.105.23/GeoCMS/v1/cf/rest/services/MapService/ESRI/0bc15917-c285-445a-9fde-61a69ec54705?token=N4T7dO%2B5mGH6rJ615v0wTcaL7SLw%2FwlZk0n1vpeOZ%2Fn6yvIzEJOsrcg%2B9maE1GQ%2BQd7yMXFjD6KQuh55%2Fe9NMKKposGFGb4YHo02G18JmrrqLd4eWoGztA%3D%3D",
+            usePreCachedTilesIfAvailable: false,
+            crs: "EPSG:4490",
+            enablePickFeatures: false,
+          },
+        },
+      },
+      {
+        type: "gltf",
+        layer: {
+          //url: "./data/gltf/BHJY.gltf",
+          url: "./data/gltf/bihaijiayuan.gltf",
+          position: [
+            120.76136880150574,
+            31.691722775621854,
+            0
+          ],
+          hpr: [90, 0, 0],
+          light: 1
+        },
+      },
+    ],
+  }
+}

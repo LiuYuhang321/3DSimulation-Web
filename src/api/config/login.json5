@@ -1,0 +1,28 @@
+{
+  /*路径参数
+  "pathParams": {},
+  body方式传参
+  "bodyParams": {},
+  query方式传参
+  "queryParams": {},
+  form表单方式传参
+  "formParams": {}
+  */
+  "login": {
+    "url": "/api/admin/auth/Login",
+    "host": null,
+    "method": "post"
+  },
+  "getUser": {
+    "url": "/login/pc",
+    "method": "get",
+    "host": "VITE_APP_MIS_API_BASE_URL",
+    "token": {
+      "type": 2,
+      // 1.平台接口公用token 2.使用用户登录token
+      "headerName": "Token",
+      "urlEncoded": false,
+      "value": ""
+    }
+  },
+}

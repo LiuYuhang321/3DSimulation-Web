@@ -1,0 +1,386 @@
+[
+  {"label": "三维模型","key": "100",  "children": [
+    {"label": "南湖校区倾斜模型", "key": "100-001",
+      "layerInfo": {
+        "type": "3dtiles",
+        "layer": {
+          "tilesetOption": {
+            "url": "/3dts/kd/kuangda_3dtiles/tileset.json",
+            "maximumScreenSpaceError": 16,
+            "maximumMemoryUsage": 1024
+          },
+          "tilesOffset":{
+            "height": 17,
+            "lng": 0,
+            "lat": 0
+          }
+        }
+      }
+    },
+    {"label": "矿大非全域手工精模", "key": "100-002",
+      "layerInfo": {
+        "type": "3dtiles",
+        "layer": {
+          "tilesetOption": {
+            "url": "/3dts/kd/kd_jm_3dtiles/tileset.json",
+            "maximumScreenSpaceError": 16
+          },
+          "tilesOffset":{
+            "height": 0,
+            "lng": 0,
+            "lat": 0
+          }
+        }
+      }
+    }
+  ]
+  },
+  {"label": "影像图","key": "101",  "children": [
+    {"label": "南湖校区影像图", "key": "101-001",
+      "viewpoint": {
+        "x": -2410265.746386579,
+        "y": 4699717.224434141,
+        "z": 3565732.251248553,
+        "h": 5.6656854790996025,
+        "p": -0.5888105021251739,
+        "r": 0.000012642852800226478
+      },
+      "layerInfo": {
+        "type": "imageLayer",
+        "layer": {
+          "type": "wmts",
+          "option": {
+            "url": "/kdgeocms/v1/cf/rest/services/ProxyService/SP/5a6cdbae-42ce-4fe1-b6e6-0858ddffb510?token=WoquRhUuzvRoi%2Bpacoh6FR%2FSPY6HoT7GZD4zvz92ZMqZJHmF%2BY7Z9AumMb%2BGhjKFfTEwoHHxn4zSNHxqyu%2BCbf0Zz07qsthWjVAerDW0gEzqLd4eWoGztA%3D%3D&layer=XZ_IMAGE:KD_DOM&style=&tilematrixset={TileMatrixSet}&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix={TileMatrixSet}:{TileMatrix}&TileCol={TileCol}&TileRow={TileRow}",
+            "layer": "XZ_IMAGE:KD_DOM",
+            "style": "",
+            "format": "image/png",
+            "tileMatrixSetID": "EPSG:900913",
+            "maximumLevel": 21
+          }
+        }
+      }
+    }
+  ]
+  },
+  {"label": "学校分区","key": "102",  "children": [
+    {"label": "规划区", "key": "102-001",
+      "layerInfo": [
+        {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/功能区/规划区.json",
+            "symbol": {
+              "type": "polygon",
+              "styleOptions": {
+                "fill": true,
+                "color": "#00C073",
+                "opacity": 0.2,
+                "height": 0,
+                "extrudedHeight": 80,
+                "closeBottom": false,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 500
+              }
+            }
+          }
+        },
+        {
+          "type": "geojson",
+          "layer": {
+            "data": {"type":"Feature",
+              "properties":{},
+              "geometry":{
+                "type":"Point",
+                "coordinates":[117.1466046578728, 34.21722589468988]
+              }
+            },
+            "symbol": {
+              "type": "div",
+              "styleOptions": {
+                "html": "<div class=\"marsBlackPanel\"><div class=\"marsBlackPanel-text\">规划区</div></div>",
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "clampToGround": true,
+                "addHeight": 100,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 500
+              }
+            }
+          }
+        }
+      ]
+    },
+    {"label": "科教区", "key": "102-002",
+      "layerInfo": [
+        {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/功能区/科教区.json",
+            "symbol": {
+              "type": "polygon",
+              "styleOptions": {
+                "fill": true,
+                "color": "#1600FF",
+                "opacity": 0.2,
+                "height": 0,
+                "extrudedHeight": 80,
+                "closeBottom": false,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "geojson",
+          "layer": {
+            "data": {"type":"Feature",
+              "properties":{},
+              "geometry":{
+                "type":"Point",
+                "coordinates":[117.13766123503167, 34.2137084526692]
+              }
+            },
+            "symbol": {
+              "type": "div",
+              "styleOptions": {
+                "html": "<div class=\"marsBlackPanel\"><div class=\"marsBlackPanel-text\">科教区</div></div>",
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "clampToGround": true,
+                "addHeight": 100,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 500
+              }
+            }
+          }
+        }
+      ]
+    },
+    {"label": "生活区", "key": "102-003",
+      "layerInfo": [
+        {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/功能区/生活区.json",
+            "symbol": {
+              "type": "polygon",
+              "styleOptions": {
+                "fill": true,
+                "color": "#C750FF",
+                "opacity": 0.2,
+                "height": 0,
+                "extrudedHeight": 80,
+                "closeBottom": false,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "geojson",
+          "layer": {
+            "data": {"type":"Feature",
+              "properties":{},
+              "geometry":{
+                "type":"Point",
+                "coordinates":[117.1336270808608, 34.2145669742326]
+              }
+            },
+            "symbol": {
+              "type": "div",
+              "styleOptions": {
+                "html": "<div class=\"marsBlackPanel\"><div class=\"marsBlackPanel-text\">生活区</div></div>",
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "clampToGround": true,
+                "addHeight": 100,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 500
+              }
+            }
+          }
+        }
+      ]
+    },
+    {"label": "体育区", "key": "102-004",
+      "layerInfo": [
+        {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/功能区/体育区.json",
+            "symbol": {
+              "type": "polygon",
+              "styleOptions": {
+                "fill": true,
+                "color": "#FFAC00",
+                "opacity": 0.2,
+                "height": 0,
+                "extrudedHeight": 80,
+                "closeBottom": false,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "geojson",
+          "layer": {
+            "data": {"type":"Feature",
+              "properties":{},
+              "geometry":{
+                "type":"Point",
+                "coordinates":[117.13779916282849, 34.22032789900649]
+              }
+            },
+            "symbol": {
+              "type": "div",
+              "styleOptions": {
+                "html": "<div class=\"marsBlackPanel\"><div class=\"marsBlackPanel-text\">体育区</div></div>",
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "clampToGround": true,
+                "addHeight": 100,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 500
+              }
+            }
+          }
+        }
+      ]
+    },
+    {"label": "行政区", "key": "102-005",
+      "layerInfo": [
+        {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/功能区/行政区.json",
+            "symbol": {
+              "type": "polygon",
+              "styleOptions": {
+                "fill": true,
+                "color": "#C00000",
+                "opacity": 0.2,
+                "height": 0,
+                "extrudedHeight": 80,
+                "closeBottom": false,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "geojson",
+          "layer": {
+            "data": {"type":"Feature",
+              "properties":{},
+              "geometry":{
+                "type":"Point",
+                "coordinates":[117.14447774939299, 34.21476588193362]
+              }
+            },
+            "symbol": {
+              "type": "div",
+              "styleOptions": {
+                "html": "<div class=\"marsBlackPanel\"><div class=\"marsBlackPanel-text\">行政区</div></div>",
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "clampToGround": true,
+                "addHeight": 100,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 500
+              }
+            }
+          }
+        }
+      ]
+    },
+    {"label": "学院区", "key": "102-006",
+      "layerInfo": [
+        {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/功能区/学院区.json",
+            "symbol": {
+              "type": "polygon",
+              "styleOptions": {
+                "fill": true,
+                "color": "#00B1FF",
+                "opacity": 0.2,
+                "height": 0,
+                "extrudedHeight": 80,
+                "closeBottom": false,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        },
+        {
+          "type": "geojson",
+          "layer": {
+            "data": {"type":"Feature",
+              "properties":{},
+              "geometry":{
+                "type":"Point",
+                "coordinates":[117.14329218620486, 34.21766771664696]
+              }
+            },
+            "symbol": {
+              "type": "div",
+              "styleOptions": {
+                "html": "<div class=\"marsBlackPanel\"><div class=\"marsBlackPanel-text\">学院区</div></div>",
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "clampToGround": true,
+                "addHeight": 100,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 10000,
+                "distanceDisplayCondition_near": 500
+              }
+            }
+          }
+        }
+      ]
+    },
+    {"label": "学校边界", "key": "102-007",
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/功能区/矿大南湖校区.json",
+          "symbol": {
+            "type": "wall",
+            "styleOptions": {
+            "diffHeight": 150,
+            "opacity": 0.3,
+            "materialType": "WallScroll",
+            "materialOptions": {
+              "color": "#ff0000",
+              "image": "./assets/images/marker/fence.png",
+              "bloom": true,
+              "count": 3,
+              "speed": 20
+              },
+            "closure": "closure"
+            }
+          }
+        }
+      }
+    }
+  ]
+  }
+]

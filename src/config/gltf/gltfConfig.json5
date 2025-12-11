@@ -1,0 +1,39 @@
+{
+  "e1d81b52893048debd1b6f7b1f8968d9": {
+    url: "./data/gltf/2-29_floor02.gltf",
+    position: [
+      120.76186880150574,
+      31.691202775621854
+    ],
+    hpr: [90, 0, 0],
+    light: 2,
+    offsetDistance: 81
+  },
+  "14fa0fb4b1e64b5fb50588227d9bb351": {
+    url: "./data/gltf/Building_2-29floor.gltf",
+    position: [
+      120.76207331413086,31.691887766544134
+    ],
+    hpr: [90, 0, 0],
+    light: 1,
+    offsetDistance: 56
+  },
+  "b3cae8002da9463fafd11fe2508d8cd6": {
+    url: "./data/gltf/Building_2-29floor.gltf",
+    position: [
+      120.76207284023957, 31.692542636502157
+    ],
+    hpr: [90, 0, 0],
+    light: 1,
+    offsetDistance: 56
+  },
+  "fca60bb673474c3e863633e67a21a6ae": {
+    url: "./data/gltf/Building_2-29floor.gltf",
+    position: [
+      120.76207110154604, 31.693182350160217
+    ],
+    hpr: [90, 0, 0],
+    light: 1,
+    offsetDistance: 56
+  }
+}

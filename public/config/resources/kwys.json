@@ -1,0 +1,48 @@
+[
+  {
+    "title": "分类1",
+    "children": [
+      {
+        "title": "小分类11",
+        "children": [
+          {
+            "title": "aaaaaaaaaaaaa",
+            "path": ""
+          }
+        ]
+      },
+      {
+        "title": "小分类12",
+        "children": [
+          {
+            "title": "aaaaaaaaaaaaa",
+            "path": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "分类2",
+    "children": [
+      {
+        "title": "小分类21",
+        "children": [
+          {
+            "title": "aaaaaaaaaaaaa",
+            "path": ""
+          }
+        ]
+      },
+      {
+        "title": "小分类22",
+        "children": [
+          {
+            "title": "aaaaaaaaaaaaa",
+            "path": ""
+          }
+        ]
+      }
+    ]
+  }
+]

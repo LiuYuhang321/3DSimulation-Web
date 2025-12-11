@@ -1,0 +1,18 @@
+[
+  {
+    "type": "geojson",
+    "data": {}
+  },
+  {
+    "type": "3dtiles",
+    "data": {}
+  },
+  {
+    "type": "gltf",
+    "data": {}
+  },
+  {
+    "type": "imageLayer",
+    "data": {}
+  }
+]

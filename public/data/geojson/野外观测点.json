@@ -1,0 +1,1602 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10691161000011,
+          34.233341274000054
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "FUID": "3FD496AD-4C85-4E37-A0DE-52C649EFF710",
+        "MC": "点1",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.233341269999997,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10691161,
+        "NDDC": "猴家山组上段",
+        "YX": "猴家山组与馒头组分界。含海绿石生屑灰岩",
+        "YXMS": "核形石呈椭球状，其核部常包裹长条形生屑，同心纹层清楚，大小以 0。5-1cm 为主，含量 5~10％。生物碎屑为三叶虫，腹足及腕足碎片，以弯曲长条形为主，含量可达 50％以上，近于平行行叠置",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10682633300007,
+          34.233747464000032
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "FUID": "71F520AE-B5C7-4E10-8907-9BE17E5AAB94",
+        "MC": "点3",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.233747459999996,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10682633,
+        "NDDC": "馒头组底部",
+        "YX": "灰岩与泥岩分界",
+        "YXMS": "鲕粒灰岩：鲕粒以 l—2mm 为主，以同心鲕为主，放射鲕较少，亮晶腔结。除鲕粒外，尚有少量砂屑、生屑，该岩层代表—种强水动力条件的滩沉积。钙质泥岩：暗黄绿色为主，夹暗紫红色， 具",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1068487340001,
+          34.234415719000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "FUID": "E52132C9-1622-4155-98C1-A24BB2799115",
+        "MC": "点4",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "小山顶",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.234415720000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10684873,
+        "NDDC": "小山顶",
+        "YX": " ",
+        "YXMS": " ",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10712118600009,
+          34.233693264000067
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "FUID": "34D1FAD9-326D-4522-8103-8F4751ACA62C",
+        "MC": "点2",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.233693260000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10712119,
+        "NDDC": "猴家山组上段",
+        "YX": "含泥白云岩",
+        "YXMS": "含泥白云岩呈浅灰黄色，粉晶结构，具水平层理，加盐酸起泡弱。该岩石形成于干燥气候条件下的潮上坪环境及潮间带上部。",
+        "GZ": "尖山背斜轴迹",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1064087200001,
+          34.234320454000056
+        ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "FUID": "35BD1B0B-3BBE-45EA-A8D0-E7FF7A38062F",
+        "MC": "点5",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "沉积旋回2",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.234320449999998,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10640872,
+        "NDDC": "馒头组下段",
+        "YX": " ",
+        "YXMS": " ",
+        "GZ": "沉积旋回",
+        "GZMS": "以砂屑灰岩开始，其上为豹皮状云质灰岩，再上为灰黄色、具水平纫里的泥灰岩，这三种岩性组成—个序列，这种序列重复了三次"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10621912700003,
+          34.234321928000043
+        ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "FUID": "744FD95E-D927-4134-AD0B-4A4AD75F8C5C",
+        "MC": "点6",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "沉积旋回2开始",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.23432193,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10621913,
+        "NDDC": "馒头组下段",
+        "YX": " ",
+        "YXMS": " ",
+        "GZ": "沉积旋回",
+        "GZMS": "以砂屑灰岩开始，其上为豹皮状云质灰岩，再上为灰黄色、具水平纫里的泥灰岩，这三种岩性组成—个序列，这种序列重复了三次"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10635307400003,
+          34.234403870000051
+        ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "FUID": "BF276E87-0D4B-4E7D-9F33-73C0C5F4F526",
+        "MC": "点7",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "沉积旋回2横向",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.234403870000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10635307,
+        "NDDC": "馒头组上段",
+        "YX": "瘤状灰岩",
+        "YXMS": "泥晶灰岩薄层常似断非边或该薄层厚度变化很大，断开后距离较大，且在断面上呈“瘤状”等较圆化的不规则形态",
+        "GZ": "沉积旋回",
+        "GZMS": "以砂屑灰岩开始，其上为豹皮状云质灰岩，再上为灰黄色、具水平纫里的泥灰岩，这三种岩性组成—个序列，这种序列重复了三次"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10616820200005,
+          34.234370536000029
+        ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "FUID": "720B8BE1-BBA1-4C68-9467-FDB911DFB0A7",
+        "MC": "点8",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "小褶曲",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.23437054,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.1061682,
+        "NDDC": "馒头组上段",
+        "YX": "瘤状灰岩",
+        "YXMS": "泥晶灰岩薄层常似断非边或该薄层厚度变化很大，断开后距离较大，且在断面上呈“瘤状”等较圆化的不规则形态",
+        "GZ": "小褶曲",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10593739600006,
+          34.234451960000058
+        ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "FUID": "1BD87649-9BA0-4B1F-83BF-80512B526F82",
+        "MC": "点9",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "第二旋回结束处",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.234451960000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.1059374,
+        "NDDC": "馒头组下段",
+        "YX": "泥质条带灰岩",
+        "YXMS": "条带状灰岩实际上是薄层的泥晶灰岩，厚 1-2cm，其间夹灰黄色钙质泥岩薄纹层，厚度一般小于 5mm，因后者不耐风化，在地表上前者的薄层呈条带状延伸。其中可见水平层理",
+        "GZ": "沉积旋回",
+        "GZMS": "以砂屑灰岩开始，其上为豹皮状云质灰岩，再上为灰黄色、具水平纫里的泥灰岩，这三种岩性组成—个序列，这种序列重复了三次"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10549595900011,
+          34.234630214000049
+        ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "FUID": "BD8519EA-4857-49B7-AAA7-BC25F6E1879D",
+        "MC": "点10",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "核形石",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.234630209999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10549596,
+        "NDDC": "馒头组上段",
+        "YX": "核形石",
+        "YXMS": "核形石灰岩是馒头组上段和下段的分界标志层。大小从 20mm 到 50mm，核心为三叶虫等生屑，同心纹层清楚。镜下观察其圈层为断续状，弯曲波状由富藻层和富灰泥岩组咸，值得注意的是组成富藻",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10537318900003,
+          34.23520015400004
+        ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "FUID": "C43BD812-2663-4C98-A85A-BF89327D5922",
+        "MC": "点11",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "馒头组上段",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235200149999997,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10537318999999,
+        "NDDC": "馒头组上段",
+        "YX": "条带灰岩",
+        "YXMS": "条带状灰岩实际上是薄层的泥晶灰岩，厚 1-2cm，其间夹灰黄色钙质泥岩薄纹层，厚度一般小于 5mm，因后者不耐风化，在地表上前者的薄层呈条带状延伸。其中可见水平层理",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10493429400003,
+          34.235223068000039
+        ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "FUID": "1BB35FC0-132A-463B-B00D-ACB95CD9DEC8",
+        "MC": "点12",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "馒头组和毛庄组分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235223070000004,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10493429,
+        "NDDC": "毛庄组底部",
+        "YX": "含海绿石灰岩",
+        "YXMS": "是馒头组和毛庄组的分界。蛋青色厚层状含海绿石生屑泥晶灰岩，夹薄层灰岩、鲕粒灰岩。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10509257800004,
+          34.235363376000066
+        ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "FUID": "CE192372-BB11-4BC5-B5DB-AC2A3E407677",
+        "MC": "点13",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "馒,毛分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235363380000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10509258,
+        "NDDC": "毛庄组底部",
+        "YX": "含海绿石灰岩",
+        "YXMS": "是馒头组和毛庄组的分界。蛋青色厚层状含海绿石生屑泥晶灰岩，夹薄层灰岩、鲕粒灰岩。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.104645,
+          34.235339967000073
+        ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "FUID": "7CAB02E8-652A-45D3-A9F9-B809C29DD598",
+        "MC": "点14",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "毛,徐分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235339969999998,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.104645,
+        "NDDC": "徐庄组下部",
+        "YX": "泥质条带灰岩",
+        "YXMS": "条带状灰岩实际上是薄层的泥晶灰岩，厚 1-2cm，其间夹灰黄色钙质泥岩薄纹层，厚度一般小于 5mm，因后者不耐风化，在地表上前者的薄层呈条带状延伸。其中可见水平层理",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10474621800006,
+          34.235428332000026
+        ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "FUID": "6BC52A72-935A-4548-A9FF-80BB82F3CBDB",
+        "MC": "点15",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "毛,徐分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235428329999998,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10474622,
+        "NDDC": "徐庄组下部",
+        "YX": "鲕粒灰岩",
+        "YXMS": "庄组中的鲕粒灰岩的特征显示其为强水动力条件的滩相沉积环境。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10441421100006,
+          34.235619291000035
+        ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "FUID": "E8FA20D5-A1F7-4903-AD31-8751066B151E",
+        "MC": "点16",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "徐顶部",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235619290000002,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10441421,
+        "NDDC": "徐庄组顶部",
+        "YX": "紫红色含白云母砂岩",
+        "YXMS": "紫红色，中粒砂状结构，块状构造，主要矿物为石英、长石、白云母。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10430913900007,
+          34.235807936000072
+        ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "FUID": "0BB38498-413D-47F1-BBC3-FC6B85C93BA1",
+        "MC": "点17",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235807940000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10430914,
+        "NDDC": "张夏组下段",
+        "YX": "鲕粒灰岩",
+        "YXMS": "鲕粒直径 lmm 左右为主，另外尚有少量球粒。填隙物为亮晶和泥晶共存，以亮晶方解石为主。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10440116500001,
+          34.235872408000034
+        ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "FUID": "BA2139F1-44B7-40E1-94CA-9451DBD49106",
+        "MC": "点18",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235872409999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10440117,
+        "NDDC": "张夏组下段",
+        "YX": " ",
+        "YXMS": " ",
+        "GZ": "平移断层",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10427530800007,
+          34.235978087000035
+        ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "FUID": "40CD0CBD-F499-482A-99E0-D7D8750E7B5A",
+        "MC": "点19",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.235978090000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10427531000001,
+        "NDDC": "张夏组下段",
+        "YX": "红色鲕粒灰岩",
+        "YXMS": "鲕粒直径 lmm 左右为主，另外尚有少量球粒。填隙物为亮晶和泥晶共存，以亮晶方解石为主。岩层中具波状层理和冲刷面。该岩石形成于水动力条件较强的摊的水下部分，水能量比亮晶胶结的鲕",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10380492700006,
+          34.236738252000066
+        ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "FUID": "702BFA34-7A42-411A-886D-443EBD6DB0B4",
+        "MC": "点20",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.236738250000002,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10380493,
+        "NDDC": "张夏组上段底部",
+        "YX": "豹皮灰岩",
+        "YXMS": "豹皮状白云质灰岩。张夏组上段鲕粒灰岩与豹皮状灰岩互层，反映了鲕滩与滩间海相间分布的古地理面貌， 豹皮状灰岩为滩间海沉积的产物",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10354600400001,
+          34.237678349000078
+        ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "FUID": "DBDE4EED-542E-4864-B8D1-EAAAD8EBD744",
+        "MC": "点21",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.237678350000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10354599999999,
+        "NDDC": "张夏组上段",
+        "YX": "豹皮灰岩",
+        "YXMS": "张夏组上段鲕粒灰岩与豹皮状灰岩互层，反映了鲕滩与滩间海相间分布的古地理面貌， 豹皮状灰岩为滩间海沉积的产物。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1034868050001,
+          34.237964964000071
+        ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "FUID": "92D636F4-2343-4584-8547-6F54DD98841B",
+        "MC": "点22",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.237964959999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10348681000001,
+        "NDDC": "张夏组顶部",
+        "YX": "豹皮灰岩",
+        "YXMS": "张夏组顶部夹有叠层石灰岩，俗称“小涡卷”，叠层石呈柱伏、锥柱状，高约 20-50cm，宽度 2-10cm，内部纹层呈宽缓弧形。叠层石之间间距小，填充物为部分白云化的含生屑泥晶灰岩，具水平层",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10327872200003,
+          34.238329723000049
+        ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "FUID": "380EF6EF-3158-4F78-A77F-B32D035F815A",
+        "MC": "点24",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238329720000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10327872000001,
+        "NDDC": "崮山组底部",
+        "YX": "薄层状含泥质灰岩",
+        "YXMS": "薄层的含泥质灰岩由薄层灰色泥晶灰岩夹 2-5mm 的灰黄色泥灰岩纹层组成，含少量生往返碎片，具潜穴构造。一些厚度较大的薄层含泥岩中夹竹中状砾悄灰岩及薄层状、团块状鲕粒灰岩。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10345702300003,
+          34.238350917000048
+        ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "FUID": "99EA74A4-A12C-49E6-8CD9-398254058B9A",
+        "MC": "点23",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "张,崮分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238350920000002,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10345701999999,
+        "NDDC": "崮山组底部",
+        "YX": "薄层状含泥质灰岩",
+        "YXMS": "薄层的含泥质灰岩由薄层灰色泥晶灰岩夹 2-5mm 的灰黄色泥灰岩纹层组成，含少量生往返碎片，具潜穴构造。一些厚度较大的薄层含泥岩中夹竹中状砾悄灰岩及薄层状、团块状鲕粒灰岩。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10311304200002,
+          34.238517482000077
+        ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "FUID": "A331417D-A72E-4B46-8E78-ABEA919EEAF7",
+        "MC": "点25",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "长山组",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238517479999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10311304,
+        "NDDC": "长山组下部",
+        "YX": "竹叶状灰岩",
+        "YXMS": "长山组和崮山组分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10295339400011,
+          34.238806423000028
+        ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "FUID": "F10FEDE6-2CBA-4BAB-AD22-07B2128B6B40",
+        "MC": "点27",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238806420000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10295339,
+        "NDDC": "凤山组下段",
+        "YX": "豹皮灰岩",
+        "YXMS": "凤山组和长山组分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10285266500011,
+          34.238705028000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "FUID": "9B7A3164-C4DE-40D8-913D-5496FCDEE266",
+        "MC": "点26",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "长,凤分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238705029999998,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10285267,
+        "NDDC": "凤山组下段",
+        "YX": "豹皮灰岩",
+        "YXMS": "凤山组和长山组分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10284373000002,
+          34.238977126000066
+        ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "FUID": "F697ED86-493D-4452-91D5-9D43D90BFAF6",
+        "MC": "点37",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238977130000002,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10284373,
+        "NDDC": "凤山组下段",
+        "YX": "砾屑灰岩",
+        "YXMS": "竹叶状砾屑可分为有紫红色氧化圈和无氧化圈两种：\n竹叶状砾屑的排列有平行状、叠瓦状、放射状、杂乱状等。砾屑之间的填隙物以泥晶基质为主，局部见遮蔽孔隙成因的亮晶胶结。\n",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10279872600006,
+          34.239198955000063
+        ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "FUID": "EB9D1B4B-B17F-460A-B37E-7FA2E2A005D5",
+        "MC": "点30",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "大窝卷",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.239198960000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10279873,
+        "NDDC": "凤山组下段",
+        "YX": "叠层石灰岩",
+        "YXMS": "叠层石是由藻类在生命活动过程中，将海水中的钙、镁碳酸盐及其碎屑颗粒粘结、沉淀而形成的一种化石。随着季节的变化、生长沉淀的快慢，形成深浅相间的复杂色层构造,叠层石的色层构造",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10271308100005,
+          34.23913295400007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "FUID": "32575950-F345-45F1-94AB-14748E1894E2",
+        "MC": "点29",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "大窝卷",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.239132949999998,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10271308,
+        "NDDC": "凤山组下段",
+        "YX": "叠层石灰岩",
+        "YXMS": "叠层石是由藻类在生命活动过程中，将海水中的钙、镁碳酸盐及其碎屑颗粒粘结、沉淀而形成的一种化石。随着季节的变化、生长沉淀的快慢，形成深浅相间的复杂色层构造,叠层石的色层构造",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10727587000008,
+          34.237411490000056
+        ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "FUID": "B3BBC01C-54E5-4B47-922F-FB39C2CE2F26",
+        "MC": "点33",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.23741149,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10727587,
+        "NDDC": "馒头组",
+        "YX": "紫红色页岩",
+        "YXMS": "紫红色泥岩，含粉质及钙质很少，几近于无，断面具滑腻感。水平层理，层面上有少量白云母碎片。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10736550600006,
+          34.23731358200007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "FUID": "20B5F099-A774-433D-B7E0-8461037B79C2",
+        "MC": "点32",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.237313579999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10736550999999,
+        "NDDC": "毛庄组",
+        "YX": "含海绿石灰岩",
+        "YXMS": "是馒头组和毛庄组的分界。蛋青色厚层状含海绿石生屑泥晶灰岩，夹薄层灰岩、鲕粒灰岩。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10784620100003,
+          34.237240696000072
+        ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "FUID": "42543064-B17A-4C63-ACFF-98CFAE3EDAEB",
+        "MC": "点31",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.237240700000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.1078462,
+        "NDDC": "馒头组",
+        "YX": "紫红色页岩",
+        "YXMS": "紫红色泥岩，含粉质及钙质很少，几近于无，断面具滑腻感。水平层理，层面上有少量白云母碎片。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10782844900007,
+          34.238157671000067
+        ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "FUID": "412FE62B-9690-4F07-BB8F-A5F4205B4321",
+        "MC": "点34",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "徐,张分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.23815767,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10782845,
+        "NDDC": "张夏组下段",
+        "YX": "鲕粒灰岩",
+        "YXMS": "徐庄组和张夏组分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10806452400004,
+          34.238277467000046
+        ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "FUID": "2B806158-5899-4BE9-8422-5D0CB6C563EF",
+        "MC": "点35",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "徐,张分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.23827747,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10806452,
+        "NDDC": "徐庄组",
+        "YX": "灰，褐黄色中薄层灰砂岩",
+        "YXMS": "徐庄组和张夏组分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10845349200008,
+          34.23831756900006
+        ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "FUID": "D4963CAC-DF5D-43C3-9961-5E6437A36B9C",
+        "MC": "点36",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.23831757,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10845349,
+        "NDDC": "徐庄组",
+        "YX": "泥质条带灰岩",
+        "YXMS": "条带状灰岩实际上是薄层的泥晶灰岩，厚 1-2cm，其间夹灰黄色钙质泥岩薄纹层，厚度一般小于 5mm，因后者不耐风化，在地表上前者的薄层呈条带状延伸。其中可见水平层理",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10860944600006,
+          34.238259586000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "FUID": "2363CF19-36E5-4657-86E3-E2391E093013",
+        "MC": "点38",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238259589999998,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10860945,
+        "NDDC": "毛庄组下部",
+        "YX": "含海绿石生屑泥晶状致密灰岩",
+        "YXMS": "是馒头组和毛庄组的分界。蛋青色厚层状含海绿石生屑泥晶灰岩，夹薄层灰岩、鲕粒灰岩。",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10854211700007,
+          34.23825977000007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "FUID": "28562DBC-669A-4404-AAD1-E34E8E4C2581",
+        "MC": "点37",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "毛徐分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238259769999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10854212,
+        "NDDC": "徐庄组下部",
+        "YX": "鲕粒灰岩",
+        "YXMS": "毛庄和徐庄组的分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10872546700011,
+          34.238323753000032
+        ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "FUID": "503A7E41-58FB-457F-859A-BCD9610C6BA0",
+        "MC": "点39",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "毛庄,徐庄分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238323749999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10872547,
+        "NDDC": "徐庄组下部",
+        "YX": "鲕粒灰岩",
+        "YXMS": "毛庄和徐庄组的分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10905731700007,
+          34.238545071000033
+        ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "FUID": "4C28CD1C-D11B-4B6F-BBEC-9FB931DE1BD6",
+        "MC": "点40",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238545070000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10905732000001,
+        "NDDC": "徐庄组下部",
+        "YX": "鲕粒灰岩",
+        "YXMS": "毛庄和徐庄组的分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10925614100006,
+          34.238648977000025
+        ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "FUID": "98354BF7-B0E3-4E42-AFF7-7F3B14B31E67",
+        "MC": "点41",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": null,
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238648980000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10925614,
+        "NDDC": "徐庄组下部",
+        "YX": "鲕粒灰岩",
+        "YXMS": "毛庄和徐庄组的分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10995165000008,
+          34.238907819000076
+        ]
+      },
+      "properties": {
+        "OBJECTID": 66,
+        "FUID": "9CB90BBE-58B8-4163-8636-72E4CC7F5EE0",
+        "MC": "点42",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "馒,毛分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.238907820000001,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.10995165,
+        "NDDC": "毛庄组下部",
+        "YX": "海绿石灰岩",
+        "YXMS": "馒头组和毛庄组的分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.11024308800006,
+          34.239161806000027
+        ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "FUID": "21A15DED-1EDC-4152-9C81-188F8F46BB54",
+        "MC": "点43",
+        "JC": null,
+        "BM": null,
+        "LX": "野外观测点",
+        "BZ": "馒,毛分界",
+        "SJLY": "张老师",
+        "SSCJ": "大北望",
+        "WD": 34.239161809999999,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.11024309,
+        "NDDC": "毛庄组下部",
+        "YX": "海绿石灰岩",
+        "YXMS": "馒头组和毛庄组的分界",
+        "GZ": " ",
+        "GZMS": " "
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1",
+    "type": "group",
+    "buttons": [
+      {
+        "id": "1-1",
+        "type": "base-map",
+        "icon": "./assets/images/map/icon/底图.png",
+        "activeIcon": "./assets/images/map/icon/底图.png",
+        "title": "底图"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "buttons": [
+      {
+        "id": "2-1",
+        "type": "layer-tree",
+        "icon": "./assets/images/map/maptool/layer_tree_white.png",
+        "activeIcon": "./assets/images/map/maptool/layer_tree_white.png",
+        "title": "图层树"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "buttons": [
+      {
+        "id": "3-1",
+        "type": "reset",
+        "baseOnRoute": true,
+        "viewpoint": {
+          "x": -2779920.791272033,
+          "y": 4668890.021226205,
+          "z": 3330343.3984115,
+          "h": 6.159489490892162,
+          "p": -0.5264312230375401,
+          "r": 6.283182673301284
+        },
+        "icon": "./assets/images/map/maptool/maptool_icon_reset_nor.webp",
+        "activeIcon": "./assets/images/map/maptool/maptool_icon_reset_sel.webp",
+        "actived": false,
+        "title": "复位"
+      },
+      {
+        "id": "3-2",
+        "type": "2d-3d",
+        "is3D": true,
+        "actived": false,
+        "title": "23D切换",
+        "icon": "./assets/images/map/maptool/maptool_icon_2D_sel.webp",
+        "activeIcon": "./assets/images/map/maptool/maptool_icon_3D_sel.webp"
+      },
+      {
+        "id": "3-3",
+        "type": "edit",
+        "title": "编辑",
+        "icon": "./assets/images/map/icon/编辑.png",
+        "activeIcon": "./assets/images/map/icon/编辑.png",
+        "actived": false,
+      },
+      {
+        "id": "3-4",
+        "type": "compass",
+        "title": "指北针",
+        "icon": "./assets/images/map/maptool/maptool_icon_Compass_nor.webp",
+        "activeIcon": "./assets/images/map/maptool/maptool_icon_Compass_sel.webp",
+        "actived": false,
+      },
+      {
+        "id": "3-5",
+        "type": "rotate",
+        "icon": "./assets/images/map/maptool/maptool_icon_dingdianxuanzhuan_nor.webp",
+        "activeIcon": "./assets/images/map/maptool/maptool_icon_dingdianxuanzhuan_sel.webp",
+        "actived": false,
+        "title": "定点旋转"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "type": "group",
+    "buttons": [
+      {
+        "id": "4-1",
+        "type": "draw",
+        "title": "绘图",
+        "icon": "./assets/images/map/icon/绘图保存.png",
+        "activeIcon": "./assets/images/map/icon/绘图保存.png",
+        "buttons": []
+      },
+      {
+        "id": "4-2",
+        "type": "eraser",
+        "title": "清除",
+        "icon": "./assets/images/map/maptool/maptool_icon_clear_nor.webp",
+        "activeIcon": "./assets/images/map/maptool/maptool_icon_clear_sel.webp",
+        "buttons": []
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "buttons": [
+      {
+        "id": "5-1",
+        "type": "fullscreen",
+        "title": "全屏",
+        "icon": "./assets/images/map/icon/top_icon_FullScreen_hover.webp",
+        "activeIcon": "./assets/images/map/icon/top_icon_CancelFullScreen_pressed.webp",
+        "button": []
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "buttons": [
+      {
+        "id": "6-1",
+        "type": "screenshot",
+        "title": "截屏",
+        "icon": "./assets/images/map/icon/截屏_screenshot-two.png",
+        "activeIcon": "./assets/images/map/icon/截屏_screenshot-two.png",
+        "buttons": []
+      },
+      {
+        "id": "6-2",
+        "type": "contour",
+        "title": "等高线",
+        "icon": "./assets/images/map/icon/等高线.png",
+        "activeIcon": "./assets/images/map/icon/等高线.png",
+        "buttons": []
+      },
+      {
+        "id": "6-3",
+        "type": "query",
+        "title": "点查",
+        "icon": "./assets/images/map/icon/网点查询.png",
+        "activeIcon": "./assets/images/map/icon/网点查询.png",
+        "buttons": []
+      },
+      {
+        "id": "6-4",
+        "type": "profile",
+        "title": "剖面分析",
+        "icon": "./assets/images/map/icon/剖面分析.png",
+        "activeIcon": "./assets/images/map/icon/剖面分析.png",
+        "button": []
+      }
+    ]
+  },
+]

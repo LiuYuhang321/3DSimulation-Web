@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.10241050000002,
+          34.238721060000046
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "FUID": "335B37E8-FA35-4ABA-A09A-20CC684A410C",
+        "MC": "凤山组剖面",
+        "JC": null,
+        "BM": null,
+        "LX": "典型地层剖面",
+        "BZ": null,
+        "SJLY": "李明老师",
+        "SSCJ": "大北望",
+        "WD": 34.238721060000003,
+        "CJR": null,
+        "CJSJ": 1657497600000,
+        "GXR": null,
+        "GXSJ": 1657497600000,
+        "BZMC": null,
+        "SSXZQ": null,
+        "GXZT": null,
+        "FZR": null,
+        "JD": 117.1024105,
+        "NDDC": null,
+        "YX": null,
+        "YXMS": null,
+        "GZ": null,
+        "GZMS": "凤山组上段灰黄色、灰褐色薄层-中厚层泥晶灰岩、链状灰岩、瘤状灰岩和条带状灰岩互层发育，该剖面地层露头较好。"
+      }
+    }
+  ]
+}

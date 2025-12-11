@@ -1,0 +1,781 @@
+[
+  {"label": "三维模型","key": "000",  "children": [
+    {"label": "大北望倾斜摄影", "key": "000-001",
+      "layerInfo": {
+        "type": "3dtiles",
+        "layer": {
+          "tilesetOption": {
+            "url": "http://cim.cityfun.com.cn/3dts/kd/dbw_3dtiles/tileset.json",
+            "maximumScreenSpaceError": 16,
+            "maximumMemoryUsage": 1024
+          },
+          "tilesOffset":{
+            "height": 50,
+            "lng": 0,
+            "lat": 0
+          }
+        }
+      }
+    }
+  ]
+  },
+  {"label": "影像图","key": "001",  "children": [
+    {"label": "大北望影像图", "key": "001-001",
+      "viewpoint": {
+        "x": -2405978.0320560304,
+        "y": 4701352.291616277,
+        "z": 3567918.954731552,
+        "h": 0.34651694022224167,
+        "p": -0.8963137162618633,
+        "r": 0.00006245593635512137
+      },
+      "layerInfo": {
+        "type": "imageLayer",
+        "layer": {
+          "type": "wmts",
+          "option": {
+            "url": "http://192.168.2.210:8080/geoserver/gwc/service/wmts/rest/XZ_IMAGE:DBW_DOM/{style}/{TileMatrixSet}/{TileMatrixSet}:{TileMatrix}/{TileRow}/{TileCol}?format=image/png",
+            "layer": "XZ_IMAGE:DBW_DOM",
+            "style": "",
+            "format": "image/png",
+            "tileMatrixSetID": "EPSG:900913",
+            "maximumLevel": 21
+          }
+        }
+      }
+    }
+  ]
+  },
+  {"label": "等高线","key": "002",  "children": [
+    {"label": "大北望等高线图", "key": "002-001",
+      "viewpoint": {
+        "x": -2405759.815106028,
+        "y": 4701736.082589988,
+        "z": 3568337.1375014335,
+        "h": 0.5552410943269201,
+        "p": -0.9674998897597176,
+        "r": 6.28314236577126
+      },
+      "layerInfo": {
+        "type": "mars3d-thing",
+        "layer": {
+          "type": "ContourLine",
+          "options": {
+            "positions": [
+              {
+                "lng": 117.09442096304215,
+                "lat": 34.23726242133935,
+                "alt": 32.32100268147693
+              },
+              {
+                "lng": 117.10619634239876,
+                "lat": 34.246717437072085,
+                "alt": 37.9631791040871
+              },
+              {
+                "lng": 117.12038999521295,
+                "lat": 34.237249692616764,
+                "alt": 35.42473640728258
+              },
+              {
+                "lng": 117.10797062916964,
+                "lat": 34.22545443464926,
+                "alt": 41.82343388917033
+              },
+              {
+                "lng": 117.09442096304215,
+                "lat": 34.23726242133935,
+                "alt": 32.32100268147693
+              }
+            ],
+            "spacing": "10",
+            "color": "#00fbf7",
+            "width": 2,
+            "showElseArea": false,
+            "shadingAlpha": 0.5
+          }
+        }
+      }
+    }
+  ]
+  },
+  {"label": "实习点","key": "003",  "children": [
+    {"label": "典型构造剖面", "key": "003-001", "children": [
+      {"label": "横向张节理与岩溶", "key": "003-001-001",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/横向张节理与岩溶.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "横向张节理与岩溶",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "王大山向斜", "key": "003-001-002",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/王大山向斜.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "王大山向斜",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "王大山逆断层", "key": "003-001-003",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/王大山逆断层.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "王大山逆断层",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "次级背斜", "key": "003-001-004",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/次级背斜.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "次级背斜",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "纵向逆断层", "key": "003-001-005",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/纵向逆断层.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "纵向逆断层",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "尖山背斜", "key": "003-001-006",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/尖山背斜.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "尖山背斜",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "小型平移断层", "key": "003-001-007",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/小型平移断层.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "小型平移断层",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "馒头组豹皮灰岩剖面", "key": "003-001-008",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/馒头组豹皮灰岩剖面.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "馒头组豹皮灰岩剖面",
+                  "pixelOffsetY": -40,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "对冲逆断层剖面", "key": "003-001-009",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/对冲逆断层剖面.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "对冲逆断层剖面",
+                  "pixelOffsetY": -50,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    ]},
+    {"label": "典型地层剖面", "key": "003-002", "children": [
+      {"label": "岩床", "key": "003-002-001",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/岩床.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "岩床",
+                  "pixelOffsetY": -50,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "小型逆断层组合", "key": "003-002-002",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/小型逆断层组合.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "小型逆断层组合",
+                  "pixelOffsetY": -50,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "叠瓦状逆断层", "key": "003-002-003",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/叠瓦状逆断层.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "叠瓦状逆断层",
+                  "pixelOffsetY": -50,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "侯家山组上段剖面", "key": "003-002-004",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/侯家山组上段剖面.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "侯家山组上段剖面",
+                  "pixelOffsetY": -50,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "馒头组底部剖面", "key": "003-002-005",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/馒头组底部剖面.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "馒头组底部剖面",
+                  "pixelOffsetY": -50,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      },
+      {"label": "凤山组剖面", "key": "003-002-006",
+        "layerInfo": {
+          "type": "geojson",
+          "layer": {
+            "url": "./data/geojson/凤山组剖面.json",
+            "symbol": {
+              "type": "billboard",
+              "styleOptions": {
+                "image": "./assets/images/map/icon/icon-practice-point.webp",
+                "scale": 0.6,
+                "clampToGround": true,
+                "horizontalOrigin": 0,
+                "verticalOrigin": 2,
+                "label": {
+                  "text": "凤山组剖面",
+                  "pixelOffsetY": -50,
+                  "distanceDisplayCondition": true,
+                  "distanceDisplayCondition_far": 2000,
+                  "distanceDisplayCondition_near": 0
+                },
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 5000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    ]},
+    {"label": "野外观测点", "key": "003-003",
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/野外观测点.json",
+          "symbol": {
+            "type": "billboard",
+            "styleOptions": {
+              "image": "./assets/images/map/icon/icon-practice-point.webp",
+              "scale": 0.6,
+              "clampToGround": true,
+              "horizontalOrigin": 0,
+              "verticalOrigin": 2,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0,
+              "label": {
+                "text": "{MC}",
+                "pixelOffsetY": -50,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 2000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+  },
+  {"label": "实习路线","key": "004",  "children": [
+    {"label": "路线1", "key": "004-001",
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/路线1.json",
+          "symbol": {
+            "type": "polylineP",
+            "styleOptions": {
+              "width": 5,
+              "color": "#3388ff",
+              "clampToGround": true,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0
+            }
+          }
+        }
+      }
+    },
+    {"label": "路线2", "key": "004-002",
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/路线2.json",
+          "symbol": {
+            "type": "polylineP",
+            "styleOptions": {
+              "width": 5,
+              "color": "#3388ff",
+              "clampToGround": true,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0
+            }
+          }
+        }
+      }
+    }
+  ]
+  },
+  {"label": "全景点","key": "005",  "children": [
+    {"label": "陈山", "key": "005-001",
+      "panoramaUrl": "http://cim.cityfun.com.cn/3dts/kd/%E9%99%88%E5%B1%B1/%E9%99%88%E5%B1%B1/tour.html",
+      "viewpoint": {
+        "x": -2405328.3390272907,
+        "y": 4699289.076059213,
+        "z": 3567635.0581930815,
+        "h": 1.5502034376795137,
+        "p": -0.38947458079352515,
+        "r": 6.283184877777612
+      },
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/陈山.json",
+          "symbol": {
+            "type": "billboard",
+            "styleOptions": {
+              "image": "./assets/images/map/icon/icon-panorama-point.webp",
+              "clampToGround": true,
+              "horizontalOrigin": 0,
+              "verticalOrigin": 2,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0,
+              "label": {
+                "text": "{MC}",
+                "pixelOffsetY": -50,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 2000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {"label": "大北望采石场", "key": "005-002",
+      "panoramaUrl": "http://cim.cityfun.com.cn/3dts/kd/%E9%87%87%E7%9F%B3%E5%9C%BA/%E5%A4%A7%E5%8C%97%E6%9C%9B%E9%87%87%E7%9F%B3%E5%9C%BA/tour.html",
+      "viewpoint": {
+        "x": -2405444.803478229,
+        "y": 4698842.092828337,
+        "z": 3568121.825154371,
+        "h": 1.7943221549280945,
+        "p": -0.3123131095668956,
+        "r": 6.283183862930323
+      },
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/大北望采石场.json",
+          "symbol": {
+            "type": "billboard",
+            "styleOptions": {
+              "image": "./assets/images/map/icon/icon-panorama-point.webp",
+              "clampToGround": true,
+              "horizontalOrigin": 0,
+              "verticalOrigin": 2,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0,
+              "label": {
+                "text": "{MC}",
+                "pixelOffsetY": -50,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 2000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {"label": "崮山组-凤山组", "key": "005-003",
+      "panoramaUrl": "http://cim.cityfun.com.cn/3dts/kd/%E5%B4%AE%E5%B1%B1%E7%BB%84-%E5%87%A4%E5%B1%B1%E7%BB%84/%E5%B4%AE%E5%B1%B1%E7%BB%84-%E5%87%A4%E5%B1%B1%E7%BB%84/tour.html",
+      "viewpoint": {
+        "x": -2404710.043432728,
+        "y": 4698838.520471523,
+        "z": 3568547.7843207894,
+        "h": 3.7503085752482495,
+        "p": -0.561598504635842,
+        "r": 0.00000162113231905181
+      },
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/崮山组-凤山组.json",
+          "symbol": {
+            "type": "billboard",
+            "styleOptions": {
+              "image": "./assets/images/map/icon/icon-panorama-point.webp",
+              "clampToGround": true,
+              "horizontalOrigin": 0,
+              "verticalOrigin": 2,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0,
+              "label": {
+                "text": "{MC}",
+                "pixelOffsetY": -50,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 2000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {"label": "猴家山-馒头", "key": "005-004",
+      "panoramaUrl": "http://cim.cityfun.com.cn/3dts/kd/%E7%8C%B4%E5%AE%B6%E5%B1%B1-%E9%A6%92%E5%A4%B4/%E7%8C%B4%E5%AE%B6%E5%B1%B1-%E9%A6%92%E5%A4%B4%E7%BB%84/tour.html",
+      "viewpoint": {
+        "x": -2405015.3061397825,
+        "y": 4699146.671263641,
+        "z": 3567892.3751926543,
+        "h": 1.019872336525613,
+        "p": -0.576020587261453,
+        "r": 0.000001662720453765587
+      },
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/猴家山-馒头.json",
+          "symbol": {
+            "type": "billboard",
+            "styleOptions": {
+              "image": "./assets/images/map/icon/icon-panorama-point.webp",
+              "clampToGround": true,
+              "horizontalOrigin": 0,
+              "verticalOrigin": 2,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0,
+              "label": {
+                "text": "{MC}",
+                "pixelOffsetY": -50,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 2000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {"label": "毛庄-徐庄", "key": "005-005",
+      "panoramaUrl": "http://cim.cityfun.com.cn/3dts/kd/%E6%AF%9B%E5%BA%84-%E5%BE%90%E5%BA%84/%E6%AF%9B%E5%BA%84-%E5%BE%90%E5%BA%84%E7%BB%84/tour.html",
+      "viewpoint": {
+        "x": -2405156.0575623848,
+        "y": 4698972.9401456285,
+        "z": 3568145.5404228186,
+        "h": 4.930652920585411,
+        "p": -0.7718645023170176,
+        "r": 0.0000034305164895442886
+      },
+      "layerInfo": {
+        "type": "geojson",
+        "layer": {
+          "url": "./data/geojson/毛庄-徐庄.json",
+          "symbol": {
+            "type": "billboard",
+            "styleOptions": {
+              "image": "./assets/images/map/icon/icon-panorama-point.webp",
+              "clampToGround": true,
+              "horizontalOrigin": 0,
+              "verticalOrigin": 2,
+              "distanceDisplayCondition": true,
+              "distanceDisplayCondition_far": 5000,
+              "distanceDisplayCondition_near": 0,
+              "label": {
+                "text": "{MC}",
+                "pixelOffsetY": -50,
+                "distanceDisplayCondition": true,
+                "distanceDisplayCondition_far": 2000,
+                "distanceDisplayCondition_near": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "layerTree": {
+    "url": "./config/layertree/practice.json",
+    "host": "",
+    "method": "get"
+  }
+}
+
+
